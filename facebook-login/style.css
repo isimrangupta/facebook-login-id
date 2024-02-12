@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #f0f2f5;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leftpart{
+    position: relative;
+    top: 196px;
+    font-size: 18px;
+}
+
+.leftpart h1{
+    font-size: 57px;
+    color: blue;
+}
+
+.rightpart{
+    position: relative;
+    top: 160px;
+    right: 250px;
+    height: 270px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px #ccc,
+    -10px -10px 15px #ccc;
+}
+
+.rightpart input{
+    display: flex;
+    margin: 13px;
+    height: 40px;
+    width: 316px;
+    padding-left: 6px;
+    font-weight: bolder;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.rightpart .button{
+    background-color: rgb(0, 3, 173);
+    color: white;
+    width: 324px;
+    font-size: 16px;
+    padding: 0 134px; 
+    border: none;
+    border-radius: 8px;
+}
+.rightpart .button:hover{
+    background-color: rgb(46, 43, 233);
+}
+
+.rightpart .link{
+    padding: 0 115px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.rightpart button{
+    height: 40px;
+    width: 187px;
+    font-size: 17px;
+    margin: 10px 81px;
+    background-color: rgb(3, 107, 3);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.rightpart button:hover{
+    background-color: #068018;
+}
